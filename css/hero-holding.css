@@ -1,8 +1,29 @@
 body{
-    margin-top: 40px;
+    background: #f1f1f1;
+    color: #666;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+    font-weight: 100;
 }
 
 .jumbotron {
   text-align: center;
   background-color: transparent;
+}
+
+.jumbotron h1{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+@media screen and (min-width: 768px) {
+    body{
+        margin-top: 40px;
+    }
+    
+    .jumbotron h1{
+        margin-bottom: 40px;
+        font-size: 60px;
+    }
 }
